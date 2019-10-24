@@ -9,10 +9,10 @@ namespace FluxDayAutomation.Drivers
     {
         public const string CHROME = "chrome";
         public const string FIREFOX = "firefox";
-        public const string CHROME_V1 = "76.0";
+        // public const string CHROME_V1 = "76.0";
         public const string CHROME_V2 = "77.0";
-        public const string FIREFOX_V1 = "68.0";
-        public const string FIREFOX_V2 = "69.0";
+        // public const string FIREFOX_V1 = "68.0";
+        // public const string FIREFOX_V2 = "69.0";
         private const bool ENABLE_VNC = true;
         private const int BROWSER_WIDTH = 1920;
         private const int BROWSER_HEIGHT = 1080;
