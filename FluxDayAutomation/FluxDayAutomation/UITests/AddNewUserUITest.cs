@@ -9,9 +9,9 @@ using FluxDayAutomation.PageObjects;
 namespace FluxDayAutomation.UITests
 {
     [Category("AddNewUser")]
-    [TestFixture(SelenoidDrivers.CHROME, SelenoidDrivers.CHROME_V1)]
-    [TestFixture(SelenoidDrivers.CHROME, SelenoidDrivers.CHROME_V2)]
-    [TestFixture(SelenoidDrivers.FIREFOX, SelenoidDrivers.FIREFOX_V1)]
+    // [TestFixture(SelenoidDrivers.CHROME, SelenoidDrivers.CHROME_V1)]
+    // [TestFixture(SelenoidDrivers.CHROME, SelenoidDrivers.CHROME_V2)]
+    // [TestFixture(SelenoidDrivers.FIREFOX, SelenoidDrivers.FIREFOX_V1)]
     [TestFixture(SelenoidDrivers.FIREFOX, SelenoidDrivers.FIREFOX_V2)]
     public class AddNewUserUITest
     {
