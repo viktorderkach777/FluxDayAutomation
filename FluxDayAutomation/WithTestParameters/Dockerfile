@@ -1,7 +1,6 @@
-FROM microsoft/dotnet:sdk AS builder
+FROM microsoft/dotnet:2.2-sdk-alpine
 WORKDIR /app
 COPY . .
 
-ARG some_variable_name
-RUN dotnet restore 
-RUN dotnet test --filter TestCategory=$some_variable_name
+ARG variable_name
+RUN dotnet restore && dotnet test --filter TestCategory=$variable_name

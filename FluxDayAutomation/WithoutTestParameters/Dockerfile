@@ -1,12 +1,4 @@
-FROM microsoft/dotnet:sdk AS builder
+FROM microsoft/dotnet:2.2-sdk-alpine
 WORKDIR /app
 COPY . .
-
-#RUN cd ./FluxDayAutomation
 RUN dotnet restore && dotnet test
-
-# run tests on docker build
-#RUN dotnet test
-
-# run tests on docker run
-#ENTRYPOINT ["dotnet", "test"]
