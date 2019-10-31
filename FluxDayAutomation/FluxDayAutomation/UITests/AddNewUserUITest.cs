@@ -12,7 +12,7 @@ namespace FluxDayAutomation.UITests
     // [TestFixture(SelenoidDrivers.CHROME, SelenoidDrivers.CHROME_V1)]
     // [TestFixture(SelenoidDrivers.CHROME, SelenoidDrivers.CHROME_V2)]
     // [TestFixture(SelenoidDrivers.FIREFOX, SelenoidDrivers.FIREFOX_V1)]
-    [TestFixture(SelenoidDrivers.FIREFOX, SelenoidDrivers.FIREFOX_V2)]
+    //-[TestFixture(SelenoidDrivers.FIREFOX, SelenoidDrivers.FIREFOX_V2)]
     public class AddNewUserUITest
     {
         private const string FLUXDAY_URL = "https://app.fluxday.io/users/sign_in";
